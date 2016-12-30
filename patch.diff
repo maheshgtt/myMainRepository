@@ -1,0 +1,42 @@
+From 84e8661da4bfdd8861d1aab0b92513fd6f3b9035 Mon Sep 17 00:00:00 2001
+From: Mahesh AT <Mahesh AT>
+Date: Fri, 26 Feb 2016 16:02:05 +0530
+Subject: [PATCH] testing in master
+
+---
+ file1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/file1.txt b/file1.txt
+index a39ae1d..448eb02 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -3,3 +3,4 @@ modifed for branch
+ locally updated this line
+ first user added this line
+ in test branch
++testing in master
+-- 
+2.8.1.windows.1
+
+From 492b040e6d74a53d5d73a721219a958c7ce798bb Mon Sep 17 00:00:00 2001
+From: Mahesh AT <Mahesh AT>
+Date: Fri, 8 Jan 2016 15:30:49 +0530
+Subject: [PATCH] new file 2 in branch
+
+---
+ file2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2.txt
+
+diff --git a/file2.txt b/file2.txt
+new file mode 100644
+index 0000000..bce7650
+--- /dev/null
++++ b/file2.txt
+@@ -0,0 +1 @@
++new file 2 in branch
+\ No newline at end of file
+-- 
+2.8.1.windows.1
+
